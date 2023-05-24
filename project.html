@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>PORTFOLIO</title>
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">
 
-    <!-- font cdn -->
+    <!-- ShortCut icon -->
+    <link rel="shortcut icon" href="images/P3.jpeg" type="image/x-icon">
+
+    <!-- font awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
      <!-- Bootstrap CDN -->
@@ -19,14 +22,14 @@
      <link rel="stylesheet" href="project.css">
 </head>
 <body>
-    <div class="container-fluid">
+    <div>
         <header>
             <nav class="navbar navbar-expand-lg fixed-top">
                 <div class="container-fluid">
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span><i class="fa-solid fa-bars navbar-icon"></i></span>
                   </button>
-                  <a class="navbar-brand fs-2 fw-bold" href="#home">Portfolio</a>
+                  <a class="navbar-brand fs-1 fw-bolder" href="#home"><span>N</span>oyon.</a>
                   <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto fs-5">
                       <li class="nav-item ">
@@ -50,11 +53,11 @@
               </nav>
 
               <section class="banner">
-                <div class="banner-container d-flex justify-content-center align-items-center">
+                <div class="banner-container  d-flex justify-content-center align-items-center">
                     <div class="banner-contents text-center">
                         <h1 class="fw-bold mb-5">Learn Something New</h1>
                         <button class="btn btn-primary me-3" onclick="location.href='#tutorial'"><i class="fa-solid fa-play me-2"></i>Tutorial</button>
-                        <button class="btn btn-primary me-3" onclick="window.open('https://www.youtube.com/')" class="request-callback"><i class="fa-brands fa-youtube mr-2"></i> Subscribe</button>
+                        <button class="btn btn-primary me-3" onclick="window.open('https://www.youtube.com/')" class="request-callback"><i class="fa-brands fa-youtube mr-2 "></i> Subscribe</button>
                     </div>
                 </div>
               </section>
@@ -63,25 +66,29 @@
         <main>
           <!-- features start -->
             <section id="features" class="text-center">
+              <div class="section-title">
+                <h3 class="text-center mb-2">My Services</h3>
+                <hr class="hr-style mb-2">
+              </div>
               <div class="row">
                 <div class="col-lg-4 d-block d-lg-flex">
                   <div class="features-col">
-                    <i class="fa-solid fa-hand-holding-usd fa-3x rounded-circle icon-style"></i>
-                    <h5 class="fw-bold">Free to use</h5>
+                    <i class="fa-solid fa-mug-hot fa-3x rounded-circle icon-style"></i>
+                    <h5 class="fw-bold">Web Design</h5>
                     <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, earum architecto dolores pariatur rem corrupti impedit praesentium deserunt. Sit, optio.</p>
                   </div>
                 </div>
                 <div class="col-lg-4 d-block d-lg-flex">
                   <div class="features-col">
-                    <i class="fa-solid fa-hand-holding-usd fa-3x rounded-circle icon-style"></i>
-                    <h5 class="fw-bold">Free to use</h5>
+                    <i class="fa-brands fa-app-store-ios fa-3x rounded-circle icon-style"></i>
+                    <h5 class="fw-bold">App Design</h5>
                     <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio, earum architecto dolores pariatur rem corrupti impedit praesentium deserunt. Sit, optio.</p>
                   </div>
                 </div>
                 <div class="col-lg-4 d-block d-lg-flex">
                   <div class="features-col">
-                    <i class="fa-solid fa-hand-holding-usd fa-3x rounded-circle icon-style"></i>
-                    <h5 class="fw-bold">Free to use</h5>
+                    <i class="fa-solid fa-book fa-3x rounded-circle icon-style"></i>
+                    <h5 class="fw-bold">Documentation Expertise</h5>
                     <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
                   </div>
                 </div>
@@ -105,7 +112,7 @@
                     <p> <span class="fw-bold"> Profession :</span>  Student</p>
                     <p> <span class="fw-bold"> Current Address :</span>  Dhaka</p>
                     <p> <span class="fw-bold" > Website : </span><a href="https://www.w3schools.com/" target="_blank">www.w3schools.com</a></p>
-                    <p><a href="https://zety.com/cv-templates">
+                    <p><a href="assets/data/Md Ashadujjaman Software Engineer Resume.pdf">
                       <button class="btn text-white">Download Cv</button></a></p>
                   </div>
                 </div>
@@ -235,7 +242,7 @@
                 </div> 
                 <div class="col-lg-3 col-md-6 col-sm-12">
                   <div class="card mb-5 m-lg-0">
-                    <img class="card-img-top" src="/images/react.png" alt="react image">
+                    <img class="card-img-top" src="images/react.png" alt="React image">
                     <div class="card-body text-center">
                       <h3 class="card-title fw-bold">React</h3>
                       <a href="https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&ab_channel=Codevolution" class="stretched-link"></a>
@@ -244,7 +251,7 @@
                 </div> 
                 <div class="col-lg-3 col-md-6 col-sm-12">
                   <div class="card mb-5 m-lg-0">
-                    <img class="card-img-top" src="/images/react.png" alt="react image">
+                    <img class="card-img-top" src="images/react.png" alt="React image">
                     <div class="card-body text-center">
                       <h3 class="card-title fw-bold">React</h3>
                       <a href="https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&ab_channel=Codevolution" class="stretched-link"></a>
@@ -253,7 +260,7 @@
                 </div> 
                 <div class="col-lg-3 col-md-6 col-sm-12">
                   <div class="card mb-5 m-lg-0">
-                    <img class="card-img-top" src="/images/react.png" alt="react image">
+                    <img class="card-img-top" src="images/react.png" alt="React image">
                     <div class="card-body text-center">
                       <h3 class="card-title fw-bold">React</h3>
                       <a href="https://www.youtube.com/watch?v=QFaFIcGhPoM&list=PLC3y8-rFHvwgg3vaYJgHGnModB54rxOk3&ab_channel=Codevolution" class="stretched-link"></a>
@@ -265,7 +272,7 @@
               <div class="row text-center mb-3">
                 <div class="col-lg-3 col-md-6 col-sm-12">
                   <div class="card mb-5 m-lg-0">
-                    <img class="card-img-top" src="/images/JavaScript-logo.png" alt="JavaScript image">
+                    <img class="card-img-top" src="images/JavaScript-logo.png" alt="JavaScript image">
                     <div class="card-body text-center">
                       <h3 class="card-title fw-bold">JavaScript</h3>
                       <a href="https://www.youtube.com/watch?v=9Rhawzp-Icg&list=PL_XxuZqN0xVAu_dWUVFbscqZdTzE8t6Z1&ab_channel=StackLearner" class="stretched-link"></a>
@@ -274,7 +281,7 @@
                 </div> 
                 <div class="col-lg-3 col-md-6 col-sm-12">
                   <div class="card mb-5 m-lg-0">
-                    <img class="card-img-top" src="/images/JavaScript-logo.png" alt="JavaScript image">
+                     <img class="card-img-top" src="images/JavaScript-logo.png" alt="JavaScript image">
                     <div class="card-body text-center">
                       <h3 class="card-title fw-bold">JavaScript</h3>
                       <a href="https://www.youtube.com/watch?v=9Rhawzp-Icg&list=PL_XxuZqN0xVAu_dWUVFbscqZdTzE8t6Z1&ab_channel=StackLearner" class="stretched-link"></a>
@@ -283,7 +290,7 @@
                 </div> 
                 <div class="col-lg-3 col-md-6 col-sm-12">
                   <div class="card mb-5 m-lg-0">
-                    <img class="card-img-top" src="/images/JavaScript-logo.png" alt="JavaScript image">
+                    <img class="card-img-top" src="images/JavaScript-logo.png" alt="JavaScript image">
                     <div class="card-body text-center">
                       <h3 class="card-title fw-bold">JavaScript</h3>
                       <a href="https://www.youtube.com/watch?v=9Rhawzp-Icg&list=PL_XxuZqN0xVAu_dWUVFbscqZdTzE8t6Z1&ab_channel=StackLearner" class="stretched-link"></a>
@@ -292,7 +299,7 @@
                 </div> 
                 <div class="col-lg-3 col-md-6 col-sm-12">
                   <div class="card mb-5 m-lg-0">
-                    <img class="card-img-top" src="/images/JavaScript-logo.png" alt="JavaScript image">
+                     <img class="card-img-top" src="images/JavaScript-logo.png" alt="JavaScript image">
                     <div class="card-body text-center">
                       <h3 class="card-title fw-bold">JavaScript</h3>
                       <a href="https://www.youtube.com/watch?v=9Rhawzp-Icg&list=PL_XxuZqN0xVAu_dWUVFbscqZdTzE8t6Z1&ab_channel=StackLearner" class="stretched-link"></a>
@@ -303,7 +310,7 @@
               <div class="row text-center mb-3">
                 <div class="col-lg-3 col-md-6 col-sm-12">
                   <div class="card mb-5 m-lg-0">
-                    <img class="card-img-top" src="/images/css3.png" alt="Css3 image">
+                    <img class="card-img-top" src="images/css3.png" alt="Css3 image">
                     <div class="card-body text-center">
                       <h3 class="card-title fw-bold">CSS3</h3>
                       <a href="https://www.youtube.com/watch?v=bHHuozuq_Kk&ab_channel=HabluProgrammer" class="stretched-link"></a>
@@ -312,7 +319,7 @@
                 </div> 
                 <div class="col-lg-3 col-md-6 col-sm-12">
                   <div class="card mb-5 m-lg-0">
-                    <img class="card-img-top" src="/images/css3.png" alt="Css3 image">
+                     <img class="card-img-top" src="images/css3.png" alt="Css3 image">
                     <div class="card-body text-center">
                       <h3 class="card-title fw-bold">CSS3</h3>
                       <a href="https://www.youtube.com/watch?v=bHHuozuq_Kk&ab_channel=HabluProgrammer" class="stretched-link"></a>
@@ -321,7 +328,7 @@
                 </div> 
                 <div class="col-lg-3 col-md-6 col-sm-12">
                   <div class="card mb-5 m-lg-0">
-                    <img class="card-img-top" src="/images/css3.png" alt="Css3 image">
+                     <img class="card-img-top" src="images/css3.png" alt="Css3 image">
                     <div class="card-body text-center">
                       <h3 class="card-title fw-bold">CSS3</h3>
                       <a href="https://www.youtube.com/watch?v=bHHuozuq_Kk&ab_channel=HabluProgrammer" class="stretched-link"></a>
@@ -330,7 +337,7 @@
                 </div> 
                 <div class="col-lg-3 col-md-6 col-sm-12">
                   <div class="card mb-5 m-lg-0">
-                    <img class="card-img-top" src="/images/css3.png" alt="Css3 image">
+                    <img class="card-img-top" src="images/css3.png" alt="Css3 image">
                     <div class="card-body text-center">
                       <h3 class="card-title fw-bold">CSS3</h3>
                       <a href="https://www.youtube.com/watch?v=bHHuozuq_Kk&ab_channel=HabluProgrammer" class="stretched-link"></a>
@@ -359,18 +366,18 @@
                   <div class="carousel-inner">
                     <div class="carousel-item active">
                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nulla ex voluptates ipsam sunt perspiciatis adipisci corrupti voluptatum beatae fuga.</p>
-                      <img class="rounded-circle feedback-img" src="images/1.jpg" alt="First slide">
+                      <img class="rounded-circle feedback-img" src="images/4.jpg" alt="First slide">
                       <h6>Noyon</h6>
               
                     </div>
                     <div class="carousel-item">
                       <p>2 Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nulla ex voluptates ipsam sunt perspiciatis adipisci corrupti voluptatum beatae fuga.</p>
-                      <img class="rounded-circle feedback-img" src="images/2.jpg" alt="Second slide">
+                      <img class="rounded-circle feedback-img" src="images/1.jpg" alt="Second slide">
                       <h6>Noyon</h6>
                     </div>
                     <div class="carousel-item">
                       <p>3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nulla ex voluptates ipsam sunt perspiciatis adipisci corrupti voluptatum beatae fuga.</p>
-                      <img class="rounded-circle feedback-img" src="images/4.jpg" alt="Third slide">
+                      <img class="rounded-circle feedback-img" src="images/2.jpg" alt="Third slide">
                       <h6>Noyon</h6>
                     </div>
                   </div>
@@ -434,7 +441,7 @@
             <div class="col-lg-6 text-center mb-2 mb-lg-0 text-white">
               <p class="small mb-0 mt-1 fs-5 ">&copy; Copyright Noyon</p>
             </div>
-            <div class="col-lg-6 text-center text-lg-right">
+            <div class="col-lg-6 text-center  text-lg-right">
               <a href="#"><i class="fab fa-facebook fa-2x facebook"></i></a>
               <a href="#"><i class="fab fa-youtube fa-2x youtube"></i></a>
               <a href="#"><i class="fab fa-instagram fa-2x instagram"></i></a>
