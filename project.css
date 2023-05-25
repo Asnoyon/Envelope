@@ -148,7 +148,7 @@ header{
 
 /* about me starts */
 #about-me{
-    padding: 5% 10%;
+    padding: 8% 10%;
     background-color: #e8ded2;
 
 }
@@ -190,7 +190,7 @@ header{
 
 /* tutorial starts here */
 #tutorial{
-    padding: 5% 10%;
+    padding: 8% 10%;
     background-color: #a3d2ca;
 }
 #tutorial .hr-style {
@@ -211,7 +211,7 @@ header{
 
 /* feedback starts */
 #feedback{
-    padding: 5% 10%;
+    padding: 8% 10%;
     background-color: #5eaaa8;
 }
 #feedback .hr-style {
@@ -235,7 +235,7 @@ header{
 
 /* contact starts */
 #contact{
-    padding: 2% 10%;
+    padding: 1% 10%;
     background-color: #5eaaa8;
 }
 
